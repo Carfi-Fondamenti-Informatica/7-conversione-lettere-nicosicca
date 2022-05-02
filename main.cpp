@@ -8,9 +8,11 @@ int main() {
 
     char a;
     cin>>a;
-
-    if(conversione(a))
-        cout<<a;
+    
+    int n=(int)a;
+    
+    if(conversione(n))
+        cout<<(char)n;
     else
         cout<<"errore"<<endl;
 
