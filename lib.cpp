@@ -8,5 +8,3 @@ bool conversione(char a){
     else
         return false;
 }
-
-
