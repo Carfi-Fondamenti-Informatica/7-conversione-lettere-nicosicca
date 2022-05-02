@@ -9,7 +9,8 @@ int main() {
     char a;
     cin>>a;
     
-    int n=(int)a;
+    int n;
+    n=(int)a;
     
     if(conversione(n))
         cout<<(char)n;
