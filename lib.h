@@ -1,2 +1,2 @@
 
-bool conversione(char);
+bool conversione(int);
